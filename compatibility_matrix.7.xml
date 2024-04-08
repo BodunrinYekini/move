@@ -808,7 +808,7 @@
             <instance>default</instance>
         </interface>
     </hal>
-
+    <!-- updated -->
     <hal format="hidl" optional="false">
         <name>android.hardware.health</name>
         <version>2.1</version>
@@ -1058,4 +1058,5 @@
         </interface>
     </hal>
 
+    
 </compatibility-matrix>
