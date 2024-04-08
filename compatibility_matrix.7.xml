@@ -990,4 +990,13 @@
         </interface>
     </hal>
 
+    <hal format="aidl" optional="false">
+        <name>vendor.unisoc.hardware.radio.sim</name>
+        <interface>
+            <name>IExtRadioSim</name>
+            <instance>slot1</instance>
+	    <instance>slot2</instance>
+        </interface>
+    </hal>
+
 </compatibility-matrix>
