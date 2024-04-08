@@ -818,9 +818,8 @@
         </interface>
     </hal>
 
-    <hal format="hidl" optional="false">
+    <hal format="aidl" optional="false">
         <name>vendor.sprd.hardware.aprd</name>
-        <version>1.0</version>
         <interface>
             <name>IAprdInfoSync</name>
             <instance>default</instance>
