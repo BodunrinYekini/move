@@ -999,4 +999,13 @@
         </interface>
     </hal>
 
+    <hal format="aidl" optional="false">
+        <name>vendor.unisoc.hardware.radio.voice</name>
+        <interface>
+            <name>IExtRadioVoice</name>
+            <instance>slot1</instance>
+	    <instance>slot2</instance>
+        </interface>
+    </hal>
+
 </compatibility-matrix>
