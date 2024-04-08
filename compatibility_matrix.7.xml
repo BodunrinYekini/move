@@ -981,4 +981,13 @@
         </interface>
     </hal>
 
+    <hal format="aidl" optional="false">
+        <name>vendor.unisoc.hardware.radio.network</name>
+        <interface>
+            <name>IExtRadioNetwork</name>
+            <instance>slot1</instance>
+	    <instance>slot2</instance>
+        </interface>
+    </hal>
+
 </compatibility-matrix>
