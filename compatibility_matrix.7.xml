@@ -844,18 +844,24 @@
         </interface>
     </hal>
 
-    <hal format="hidl" optional="false">
+    <hal format="aidl" optional="false">
         <name>vendor.sprd.hardware.cplog_svc</name>
-        <version>1.0</version>
         <interface>
             <name>ISysLogControl</name>
             <instance>default</instance>
         </interface>
     </hal>
 
-    <hal format="hidl" optional="false">
+    <hal format="aidl" optional="false">
+        <name>vendor.sprd.hardware.cplog_svc</name>
+        <interface>
+            <name>ILogTransportInductor</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <hal format="aidl" optional="false">
         <name>vendor.sprd.hardware.enhance</name>
-        <version>1.0</version>
         <interface>
             <name>IEnhance</name>
             <instance>default</instance>
@@ -871,27 +877,24 @@
         </interface>
     </hal>
 
-    <hal format="hidl" optional="false">
+    <hal format="aidl" optional="false">
         <name>vendor.sprd.hardware.log</name>
-        <version>1.0</version>
         <interface>
             <name>ILogControl</name>
             <instance>default</instance>
         </interface>
     </hal>
 
-    <hal format="hidl" optional="false">
+    <hal format="aidl" optional="false">
         <name>vendor.sprd.hardware.network</name>
-        <version>1.0</version>
         <interface>
             <name>INetworkControl</name>
             <instance>default</instance>
         </interface>
     </hal>
 
-    <hal format="hidl" optional="false">
+    <hal format="aidl" optional="false">
         <name>vendor.sprd.hardware.soter</name>
-        <version>1.0</version>
         <interface>
             <name>ISoter</name>
             <instance>default</instance>
@@ -916,9 +919,8 @@
         </interface>
     </hal>
 
-    <hal format="hidl" optional="false">
+    <hal format="aidl" optional="false">
         <name>vendor.sprd.hardware.trusty</name>
-        <version>1.0</version>
         <interface>
             <name>ITrustyClientProvider</name>
             <instance>default</instance>
@@ -935,9 +937,8 @@
         </interface>
     </hal>
 
-    <hal format="hidl" optional="false">
+    <hal format="aidl" optional="false">
         <name>vendor.unisoc.hardware.ai_engine</name>
-        <version>1.0</version>
         <interface>
             <name>IAIEngineControl</name>
             <instance>default</instance>
