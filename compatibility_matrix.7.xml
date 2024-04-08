@@ -845,7 +845,11 @@
     </hal>
 
     <hal format="hidl" optional="false">
-        <name>vendor.sprd.hardware.cplog_svc.ILogTransportInductor/default</name>
+        <name>vendor.sprd.hardware.cplog_svc</name>
+        <interface>
+            <name>ISysLogControl</name>
+            <instance>default</instance>
+        </interface>
     </hal>
 
     <hal format="hidl" optional="false">
@@ -945,7 +949,7 @@
         <interface>
             <name>IExtRadioData</name>
             <instance>slot1</instance>
-			<instance>slot2</instance>
+	    <instance>slot2</instance>
         </interface>
     </hal>
 
@@ -954,7 +958,7 @@
         <interface>
             <name>IImsRadio</name>
             <instance>slot1</instance>
-			<instance>slot1</instance>
+	    <instance>slot1</instance>
         </interface>
     </hal>
     
@@ -963,27 +967,27 @@
         <interface>
             <name>IExtRadioMessaging</name>
             <instance>slot1</instance>
-			<instance>slot1</instance>
+	    <instance>slot1</instance>
         </interface>
     </hal>
 
-    <hal format="hidl" optional="false">
+    <hal format="aidl" optional="false">
         <name>vendor.unisoc.hardware.radio.modem</name>
 		<version>1</version>
         <interface>
             <name>IExtRadioModem</name>
             <instance>slot1</instance>
-			<instance>slot1</instance>
+	    <instance>slot1</instance>
         </interface>
     </hal>
 
-    <hal format="hidl" optional="false">
+    <hal format="aidl" optional="false">
         <name>vendor.unisoc.hardware.radio.network</name>
 		<version>1</version>
         <interface>
             <name>IExtRadioNetwork</name>
             <instance>slot1</instance>
-			<instance>slot1</instance>
+	    <instance>slot1</instance>
         </interface>
     </hal>
 
@@ -993,17 +997,17 @@
         <interface>
             <name>IExtRadioSim</name>
             <instance>slot1</instance>
-			<instance>slot1</instance>
+	    <instance>slot1</instance>
         </interface>
     </hal>
 
     <hal format="hidl" optional="false">
         <name>vendor.unisoc.hardware.radio.voice</name>
-		<version>1.0</version>
+	<version>1.0</version>
         <interface>
             <name>IExtRadioVoice</name>
             <instance>slot1</instance>
-			<instance>slot1</instance>
+	    <instance>slot1</instance>
         </interface>
     </hal>
     
