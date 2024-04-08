@@ -949,13 +949,6 @@
         <interface>
             <name>IExtRadioData</name>
             <instance>slot1</instance>
-        </interface>
-    </hal>
-
-    <hal format="hidl" optional="false">
-        <name>vendor.unisoc.hardware.radio.data</name>
-        <interface>
-            <name>IExtRadioData</name>
             <instance>slot2</instance>
         </interface>
     </hal>
@@ -965,47 +958,24 @@
         <interface>
             <name>IImsRadio</name>
             <instance>slot1</instance>
+            <instance>slot2</instance>
         </interface>
     </hal>
-
+    
     <hal format="hidl" optional="false">
-        <name>vendor.unisoc.hardware.radio.ims</name>
+        <name>vendor.unisoc.hardware.radio.messaging</name>
         <interface>
-            <name>IImsRadio</name>
+            <name>IExtRadioMessaging</name>
+            <instance>slot1</instance>
             <instance>slot2</instance>
         </interface>
     </hal>
 
-    
-    <hal format="hidl" optional="false">
-        <name>vendor.unisoc.hardware.radio.messaging</name>
-        <interface>
-            <name>IExtRadioMessaging</name>
-            <instance>slot1</instance>
-        </interface>
-    </hal>
-
-    
-    <hal format="hidl" optional="false">
-        <name>vendor.unisoc.hardware.radio.messaging</name>
-        <interface>
-            <name>IExtRadioMessaging</name>
-            <instance>slot2/instance>
-        </interface>
-    </hal>
-
     <hal format="hidl" optional="false">
         <name>vendor.unisoc.hardware.radio.modem</name>
         <interface>
             <name>IExtRadioModem</name>
             <instance>slot1</instance>
-        </interface>
-    </hal>
-
-    <hal format="hidl" optional="false">
-        <name>vendor.unisoc.hardware.radio.modem</name>
-        <interface>
-            <name>IExtRadioModem</name>
             <instance>slot2</instance>
         </interface>
     </hal>
@@ -1015,13 +985,6 @@
         <interface>
             <name>IExtRadioNetwork</name>
             <instance>slot1</instance>
-        </interface>
-    </hal>
-
-    <hal format="hidl" optional="false">
-        <name>vendor.unisoc.hardware.radio.network</name>
-        <interface>
-            <name>IExtRadioNetwork</name>
             <instance>slot2</instance>
         </interface>
     </hal>
@@ -1031,13 +994,6 @@
         <interface>
             <name>IExtRadioSim</name>
             <instance>slot1</instance>
-        </interface>
-    </hal>
-
-    <hal format="hidl" optional="false">
-        <name>vendor.unisoc.hardware.radio.sim</name>
-        <interface>
-            <name>IExtRadioSim</name>
             <instance>slot2</instance>
         </interface>
     </hal>
@@ -1047,16 +1003,8 @@
         <interface>
             <name>IExtRadioVoice</name>
             <instance>slot1</instance>
-        </interface>
-    </hal>
-
-    <hal format="hidl" optional="false">
-        <name>vendor.unisoc.hardware.radio.voice</name>
-        <interface>
-            <name>IExtRadioVoice</name>
             <instance>slot2</instance>
         </interface>
     </hal>
-
     
 </compatibility-matrix>
